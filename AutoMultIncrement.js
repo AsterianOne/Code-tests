@@ -1,7 +1,10 @@
 function aMI(number){
-for(i = 0; i == number; i++){
- result += i**i
-   }
-  }
-aMI(15)
-//ex aMI 15 results 
+	let result = 0
+	for(i = 1; i <= number; i++){
+	 result += i**i
+	   }
+	   console.log(result)
+	   return result
+	  }
+	aMI(5)
+	//ex aMI 5 expected 3413
